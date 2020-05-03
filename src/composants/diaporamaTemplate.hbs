@@ -1,0 +1,32 @@
+<!-- ==================================
+ *     e j D i c t o    info            *
+ * ==================================== *
+ * (c)2012-2020 - Patrick Cardona       *
+ * Licence GPL version 3 ou ultérieure  *
+ * VOIR la licence complète à la racine *
+ * ==================================== -->
+ 
+ <!-- diaporamaTemplate.hbs -->
+
+<div class="w3-content w3-display-container">
+{{#each this}}
+<div class="w3-display-container mySlides w3-center">
+{{#if @last}}
+  <div class="W3-display-middle demo">
+  <h1 class="w3-text-teal w3-jumbo w3-center">Allons-y !</h1>
+  <p><a class="w3-button w3-green w3-round w3-xxlarge w3-center" 
+  href="https://pcardona34.github.io/ejdicto">ejDicto</a></p>
+ </div>
+{{else}}
+  <img class="demo" src="./static/images/ejdicto{{this.indice}}.jpg" style="height: 50%">
+    <div class="w3-display-middle w3-container w3-padding-16 analogue w3-yellow w3-round" style="font-size: 2rem">
+    {{this.legende}}
+    </div>
+{{/if}}
+</div>
+{{/each}}
+<div class="w3-center w3-display-middle" style="width:100%">
+    <div class="w3-left chevron" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right chevron" onclick="plusDivs(1)">&#10095;</div>
+  </div>
+</div>

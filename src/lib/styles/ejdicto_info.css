@@ -1,0 +1,19 @@
+/* ==================================== *
+ *      e j D i c t o  info             *
+ * ==================================== *
+ * (c)2012-2020 - Patrick Cardona       *
+ * Licence GPL version 3 ou ultérieure  *
+ * VOIR la licence complète à la racine *
+ * ==================================== */
+
+/* ejdicto_info.css */
+
+.chevron {
+font-size: 60px;
+color: teal;
+}
+
+.chevron:hover {
+cursor: pointer;
+}
+

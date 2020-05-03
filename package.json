@@ -1,0 +1,40 @@
+{
+  "name": "ejdicto_info",
+  "version": "1.0.0",
+  "description": "Site de présentation de l'application ejDicto",
+  "main": "build/app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "help": "bash ./outils.sh help",
+    "dev": "bash ./outils.sh dev",
+    "vendors": "bash ./outils.sh vendors",
+    "build": "bash ./outils.sh build",
+    "test": "bash ./outils.sh test",
+    "clean": "bash ./outils.sh clean",
+    "deploy": "bash ./outils.sh deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcardona34/ejdicto_info.git"
+  },
+  "keywords": [
+    "dictée",
+    "réécriture",
+    "exerciseur"
+  ],
+  "author": "Patrick Cardona",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/pcardona34/ejdicto_info#readme",
+  "dependencies": {
+    "chibijs": "^3.0.9"
+  },
+  "devDependencies": {
+    "clean-css": "^4.2.3",
+    "handlebars": "^4.7.6",
+    "hbsfy": "^2.8.1",
+    "http-server": "^0.12.1",
+    "jsmin": "^1.0.1"
+  }
+}

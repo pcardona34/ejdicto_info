@@ -1,0 +1,25 @@
+/* Images */
+
+
+{
+"img": [
+ {"indice": 1, "legende": "Page d'accueil"},
+ {"indice": 2, "legende": "Liste filtrée"},
+ {"indice": 3, "legende": "Mode d'emploi"},
+ {"indice": 4, "legende": "Écoute d'une dictée"},
+ {"indice": 5, "legende": "Saisie d'une dictée"},
+ {"indice": 6, "legende": "Bilan intermédiaire"},
+ {"indice": 7, "legende": "Affichage de la correction"},
+ {"indice": 8, "legende": "Gestion du profil"},
+ {"indice": 9, "legende": "Liste des dictées aménagées"},
+ {"indice": 10, "legende": "Assistant de la saisie"},
+ {"indice": 11, "legende": "mentions légales"},
+ {"indice": 12, "legende": "Liste des réécritures"},
+ {"indice": 13, "legende": "Mode d'emploi d'une réécriture"},
+ {"indice": 14, "legende": "Une réécriture : consigne et texte initial"},
+ {"indice": 15, "legende": "Aide : conseils pour améliorer sa saisie"},
+ {"indice": 16, "legende": "Interface mobile"},
+ {"indice": 17, "legende": "Affichage du menu des actions"},
+ {"indice": 18, "legende": "<a href='https://pcardona34.github.io/ejdicto' class='w3-button'>Allons-y !</a>"}
+  ]
+}
