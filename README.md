@@ -13,6 +13,8 @@ outils de développement activés : notamment l'interpréteur de commandes
 (shell) Bash. Vérifiez la présence de ces outils en ouvrant une console 
 et en affichant leur version, sinon il faudra les installer.
 
+Exécutez :
+
     bash --version;
     node --version;
     npm --version;
@@ -50,8 +52,9 @@ et en affichant leur version, sinon il faudra les installer.
 ### La première fois seulement
 
 + Pour créer une version minifiée des bibliothèques css et javascript 
-externes. Il s'agit notamment des styles fournis par 
-w3school, ainsi que la police d'icones IcoMoon.
+externes. Il s'agit notamment des styles fournis par w3school, ainsi que la police d'icones IcoMoon.
+
+Exécutez :
 
     npm run vendors
 
@@ -71,7 +74,9 @@ démarrage, par exemple&nbsp;:
 
 + La cible de la publication est la branche *gh-pages* qui coïncide avec la branche *master*.
 + Effectuez préalablement ce réglage dans les paramètres de votre dépôt 
-Github la première fois. Puis exécutez :
+Github la première fois. 
+
+Puis exécutez :
 
     npm run clean
     npm run deploy
