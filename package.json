@@ -34,7 +34,7 @@
     "clean-css": "^4.2.3",
     "handlebars": "^4.7.6",
     "hbsfy": "^2.8.1",
-    "http-server": "^0.12.1",
+    "http-server": "^14.0.0",
     "jsmin": "^1.0.1"
   }
 }

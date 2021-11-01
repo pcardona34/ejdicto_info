@@ -1,8 +1,5 @@
-/* Messages de l'interface */
-
-
 {
 "msg": {
-  "bienvenue": "<a href='https://pcardona34.github.io/ejdicto'>ejDicto</a>, espace d'entrainement en orthographe&nbsp;!",
+  "bienvenue": "<a href='https://pcardona34.github.io/ejdicto'>ejDicto</a>, espace d'entrainement en orthographe&nbsp;!"
   }
 }
